@@ -1,13 +1,66 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>My Contact Info</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Company Contact Information</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #f0f0f0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 16px;
+      padding: 30px 40px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+      backdrop-filter: blur(8px);
+      max-width: 400px;
+      width: 90%;
+    }
+
+    h1 {
+      margin-bottom: 10px;
+      font-size: 28px;
+      color: #ffffff;
+    }
+
+    p {
+      margin: 8px 0;
+      font-size: 16px;
+    }
+
+    .label {
+      font-weight: bold;
+      color: #a0cfff;
+    }
+
+    a {
+      color: #76c7ff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-  <h1>Mohamamd Davtalab</h1>
-  <p>Email: mfdavtalab@gmail.com</p>
-  <p>Phone: +989203022490</p>
-  <p>Location: Tehran, Iran</p>
+  <div class="card">
+    <h1>HAPCO</h1>
+    <p><span class="label">Email:Manger@hapco.ir </span> <a href="mailto:contact@xyztech.com">contact@xyztech.com</a></p>
+    <p><span class="label">Manger: Parsa Pouriaseresht </span> +981234567 </p>
+    <p><span class="label">Phone:</span> +981234567 </p>
+    <p><span class="label">Location:</span> 1234 Innovation Drive, Tehran, Iran</p>
+    <p><span class="label">Website:</span> <a href="https://www.HAPCO.ir" target="_blank">www.xyztech.com</a></p>
+  </div>
 </body>
 </html>
